@@ -122,7 +122,7 @@ section h1 {
     background-clip: text;
     color: transparent;
 
-    animation: shine 10s linear infinite;
+    animation: shine 18s linear infinite;
 }
 
 section p {
@@ -160,6 +160,16 @@ ul li a {
     background: rgba(255,255,255,.08);
     border: 1px solid rgba(255,255,255,.15);
     transition: all .3s ease;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+ul li a i {
+    font-size: 1.2rem;
 }
 
 ul li a:hover {
